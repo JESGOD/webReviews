@@ -1,17 +1,23 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0%;
     min-height: 100%;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
-    
+
 }
+
 
 html {
     height: 100%;
 }
 
 .titulo {
-    
+    margin-top: 12px;
     font-size: 120%;
     color: rgb(6, 101, 101);
     letter-spacing: 8px;
@@ -64,3 +70,45 @@ html {
     letter-spacing: 2px;
 }
 
+/* barra de navegacion */
+
+.contenedor-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+    padding-block: 10px;
+    background-color: rgb(7, 84, 89);
+    box-shadow: 0px 2px 15px rgb(98, 198, 232);
+
+
+}
+
+#opciones a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 4px;
+
+
+}
+
+/* efecto en los botones :hover indica que se hace una accion cuando se pasa el cursos por enciama del elemento*/
+#opciones a:hover {
+    border-color: aqua;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.335);
+    box-shadow: 0px 0px 25px lightblue;
+    transition: 0.5s; /* tiempo de transicion para animaciones*/
+}
+
+.logo {
+    color: white;
+    font-size: x-large;
+    letter-spacing: 8px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 225, 255), 0 0 5px rgb(3, 226, 255);
+}
