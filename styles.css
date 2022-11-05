@@ -1,0 +1,66 @@
+body {
+    margin: 0%;
+    min-height: 100%;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+html {
+    height: 100%;
+}
+
+.titulo {
+    
+    font-size: 120%;
+    color: rgb(6, 101, 101);
+    letter-spacing: 8px;
+    /*sirve para dar espacio entre letras (HOLA = H O L A) */
+}
+
+.articleTextos {
+    margin: 3%;
+    margin-inline: 25%;
+    padding: 2%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nombre {
+    letter-spacing: 5px;
+    color: rgb(6, 101, 101);
+}
+
+#trabajo {
+    letter-spacing: 3px;
+    color: rgb(58, 189, 189);
+}
+
+#info {
+    color: rgb(74, 99, 96);
+}
+
+#perfil1 {
+    border-radius: 200px;
+    box-shadow: 10px -2px rgb(0, 190, 254);
+    height: 130px;
+    width: 130px;
+}
+
+.botonesRA button {
+    background-color: white;
+    border: none;
+    color: rgb(11, 169, 169);
+    cursor: pointer;
+    /*sirve para que al pasar el cursor por encima aparesca una manito XD*/
+}
+
+#aleatorio {
+    background-color: rgba(0, 229, 255, 0.049);
+    border-radius: 10px;
+    border-color: rgb(7, 122, 122);
+    cursor: pointer;
+    color: rgb(11, 169, 169);
+    letter-spacing: 2px;
+}
+
